@@ -42,7 +42,6 @@ screen.onkeyrelease(player.stop_moving, 'j')
 
 is_game = True
 while is_game:
-    print(score.level)
     if score.level == 2:
         screen.bgpic('background/l2.gif')
     elif score.level == 3:
