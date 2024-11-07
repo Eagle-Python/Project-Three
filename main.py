@@ -1,7 +1,7 @@
 import time
 from turtle import Screen
 from player import Player
-from car import Car
+from enemy import Car
 from score import Score
 import pygame
 
